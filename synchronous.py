@@ -1,6 +1,7 @@
 import requests
 from time import perf_counter
 
+
 SITE = "https://thispersondoesnotexist.com"
 IMAGES_QTY = 50
 
