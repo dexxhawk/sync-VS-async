@@ -15,7 +15,7 @@ def fetch_images(folder_path: str) -> None:
 
 if __name__ == "__main__":
     print("Please wait...")
-    start = perf_counter("./images")
-    fetch_images()
+    start = perf_counter()
+    fetch_images("./images")
     end = perf_counter()
     print(f"Finished in {(end - start):.02f} seconds")
